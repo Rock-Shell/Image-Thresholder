@@ -6,7 +6,7 @@ def nothing(x):
 
 ##cap=cv2.VideoCapture("ballmotionwhite.m4v")
 ##_,frame=cap.read()
-frame=cv2.imread("img.jpeg")
+frame=cv2.imread("hand.jpg") # replace with any image
 
 cv2.namedWindow('Tracking')
 cv2.createTrackbar('LH','Tracking',0,255,nothing)
